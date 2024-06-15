@@ -4,30 +4,38 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>aranara name generator 🔥 </title>
-  <link rel="icon" type="image/x-icon" href="icon.jpg">
+  <link rel="icon" type="image/x-icon" href="icon.ico">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="container-fluid bg-light">
-    <div class="row">
-      <div class="col-1 d-flex align-items-center">
-        <img src="aranara.jpg" alt="Logo" width="50" height="50"> </div>
-      <div class="col-auto ms-auto">
-        <h1>Aranara Name Generator</h1>
+    <header class="container-fluid bg-light">
+        <div class="row">
+          <div class="col-1 d-flex align-items-center">
+            <img src="aranara.jpg" alt="Logo" width="50" height="50"> </div>
+          <div class="col-auto ms-auto">
+            <h1>aranara name maker</h1>
+          </div>
+        </div>
+      </header>
+      <div class="container mt-3 d-flex justify-content-center">
+        <div class="card rounded-3 mx-2" style="width: 18rem;">
+          <div class="card-body">
+            <h2>enter nara's name</h2>
+            <p>get aranara name here</p>
+            <input type="text" id="nameInput" placeholder="Enter your name">
+            <button onclick="generateEnteredName()" class="btn btn-primary rounded-pill">please aranimba make my name!!!</button>
+          </div>
+        </div>
+        <div class="card rounded-3 mx-2" style="width: 18rem;">
+          <div class="card-body">
+            <h2>make a name here</h2>
+            <button onclick="generateRandomName()" class="btn btn-primary rounded-pill">aranima please think aranara name for me!!</button>
+          </div>
+        </div>
       </div>
-    </div>
-  </header>
-  <div class="container mt-3">
-    <h2>Enter nara's  name</h2>
-    <p>get the nara name here</p>
-    <input type="text" id="nameInput" placeholder="Enter your name, nara">
-    <button onclick="generateEnteredName()">Generate Aranara Name</button>
-    <h2>Generate Random Name</h2>
-    <button onclick="generateRandomName()">Generate Random Aranara Name</button>
-    <h2 id="generatedName"></h2>
-  </div>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-  <script src="script.js"></script>
-</body>
-</html>
+      <h2 id="generatedName" class="text-center mt-3"></h2>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+      <script src="script.js"></script>
+    </body>
+    </html>
