@@ -7,7 +7,7 @@ function generateEnteredName() {
     if (enteredName) {
       generatedName.textContent = `Ara${enteredName}`;
     } else {
-      generatedName.textContent = "Please enter a name!";
+      generatedName.textContent = "aranimba needs nara's name to make aranara name!!";
     }
   }
   
