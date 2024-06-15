@@ -46,3 +46,24 @@ body {
     font-weight: bold;
   }
   
+  
+  .overflow-hidden {
+    transition: height 0.5s ease; /* Animation for height change */
+  }
+  
+  h1, h2, p {
+    margin-bottom: 15px;
+  }
+  
+  #nameInput {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 100%;
+  }
+  
+  .btn-primary {
+    background-color: #333;
+    color: #fff;
+    margin: auto;
+  }
